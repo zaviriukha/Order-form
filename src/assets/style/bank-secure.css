@@ -1,0 +1,51 @@
+.secure {
+  position: relative;
+  background: #FFFFFF;
+  width: 440px;
+}
+
+.secure form{
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-left: 20px;
+}
+
+.secure input[type=text] {
+  width: 100%;
+  padding: 2px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  text-align:center;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 15px;
+}
+.secure input[type=tel] {
+  text-align:center;
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 15px;
+  width: 30px;
+}
+.secure .data-cvv-info{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+
+input::placeholder{
+  font-size:15px;
+  text-align: center;
+}
+
+.secure button {
+  padding: 10px 30px;
+  background: #7ab72b;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+}

@@ -1,0 +1,42 @@
+.sale-block {
+  padding: 10px 0 10px 9px;
+  background: #ebecf0;
+  border: 1px solid #dadde6;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.sale-block img {
+  float: left;
+  width: 64px;
+  height: 64px;
+  margin-right: 8px;
+  border-radius: 1px;
+}
+
+.sale-block .sale-info {
+  overflow: hidden;
+}
+
+.sale-block p {
+  line-height: 13px;
+  font-size: 11px;
+  color: #4f5266;
+  text-align: left;
+  margin-bottom: 0.5em !important;
+}
+
+.sale-block .price {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.sale-block small {
+  margin-top: 7px;
+  font-size: 10px;
+  color: #636680;
+}
+
+.content h3 {
+  font-size: 1em !important;
+}

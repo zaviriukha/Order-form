@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "MuseoSansRegular";
+  src: url("../fonts/MuseoSansRegular.eot");
+  src: url("../fonts/MuseoSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansRegular.woff") format("woff"),
+    url("../fonts/MuseoSansRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansBlack";
+  src: url("../fonts/MuseoSansBlack.eot");
+  src: url("../fonts/MuseoSansBlack.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansBlack.woff") format("woff"),
+    url("../fonts/MuseoSansBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansBold";
+  src: url("../fonts/MuseoSansBold.eot");
+  src: url("../fonts/MuseoSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansBold.woff") format("woff"),
+    url("../fonts/MuseoSansBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansItalic";
+  src: url("../fonts/MuseoSansItalic.eot");
+  src: url("../fonts/MuseoSansItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansItalic.woff") format("woff"),
+    url("../fonts/MuseoSansItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansLight";
+  src: url("../fonts/MuseoSansLight.eot");
+  src: url("../fonts/MuseoSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansLight.woff") format("woff"),
+    url("../fonts/MuseoSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "MuseoSansMedium";
+  src: url("../fonts/MuseoSansMedium.eot");
+  src: url("../fonts/MuseoSansMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansMedium.woff") format("woff"),
+    url("../fonts/MuseoSansMedium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

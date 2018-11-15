@@ -1,0 +1,26 @@
+/* Modal */
+.modal-content {
+  width: 800px !important;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Layout */
+.left {
+  height: calc(100% - 10px);
+  padding: 0px 10px 0 0px;
+  max-width: 69%;
+}
+
+.right {
+  padding: 16px 0 0 10px;
+  border-left: 1px solid #DADDE6;
+  max-width: 29%;
+}
+
+.actions {
+  bottom: 30px;
+}

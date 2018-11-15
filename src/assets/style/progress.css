@@ -1,0 +1,72 @@
+/* Layout */
+ul.progress {
+  margin: 0;
+  margin-top: 23px;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box
+}
+
+/* Items */
+ul.progress {
+  height: 30px;
+  background: #ebecf0;
+  border: 1px solid #dadde6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress li {
+  position: relative;
+  width: calc(100% / 3);
+  list-style-type: none;
+}
+
+.progress li:not(:last-child):after {
+  content: url(../img/arr.svg);
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+
+.progress li a {
+  display: inline-block;
+  margin: 8px 0 0 9px;
+  padding-left: 16px;
+  font-family: "MuseoSansRegular";
+  line-height: normal;
+  font-size: 12px;
+  text-decoration: none;
+  color: #636680;
+}
+
+.progress li a:not(.activated) {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Checkboxes */
+.progress li a:before {
+  content: url(../img/progress.svg);
+  top: 9px;
+  position: absolute;
+  left: 9px;
+}
+
+.progress li a.activated:before {
+  content: url(../img/progress-activated.svg);
+}
+
+.progress li a.current:before {
+  content: url(../img/progress-current.svg);
+}
+
+.content ul {
+  margin-left: 0px !important;
+}
+
+.content li+li {
+  margin-top: 0 !important;
+}

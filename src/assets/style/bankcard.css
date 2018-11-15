@@ -1,0 +1,100 @@
+/* Bank Card */
+.bankcard {
+  width: 238px;
+  height: 100px;
+  padding: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #4f5266;
+  border-radius: 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.bankcard:before {
+  content: url(../img/mastercard.svg);
+  display: block;
+}
+
+.bankcard.highlight {
+  position: relative;
+  padding: 8px;
+  padding-top: 10px;
+  border: 2px solid #7957d5;
+}
+
+.bankcard span {
+  display: inline-block;
+}
+
+.bankcard .name {
+  margin-top: 7px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+.bankcard .number,
+.bankcard .expire {
+  margin-top: 7px;
+  font-family: "MuseoSansLight";
+  line-height: normal;
+  font-size: 10px;
+  color: #dadde6;
+}
+
+.bankcard .expire {
+  margin-left: 25px;
+}
+
+/* Add a New Card */
+.add-bankcard {
+  display: table;
+  width: 238px;
+  height: 100px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background: #ebecf0;
+  border: 1px solid #dadde6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.add-bankcard span {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 14px;
+  color: #7f849e;
+}
+
+.add-bankcard span:before {
+  content: url(../img/plus.svg);
+  position: relative;
+  margin-right: 4px;
+  top: 5px;
+}
+
+/* Sidebar Bank Card */
+.bankcard.sidebar {
+  width: 100%;
+  margin: 10px 0 0 0;
+  background: none;
+  border: 1px solid #dadde6;
+  box-shadow: none;
+  cursor: default;
+}
+
+.bankcard.sidebar:before {
+  content: url(../img/mastercard-dark.svg);
+}
+
+.bankcard.sidebar .name {
+  color: #4F5266;
+}
+
+.bankcard.sidebar .number,
+.bankcard.sidebar .expire {
+  color: #636680;
+}

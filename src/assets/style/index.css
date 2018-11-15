@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  font-family: 'MuseoSansRegular';
+}
+
+h3 {
+  margin: 0px !important;
+}
+
+input::placeholder {
+  font-size: 12px;
+  color: #7f849e;
+  font-family: "MuseoSansRegular";
+  text-align:left;
+}

@@ -1,0 +1,39 @@
+.final {
+  margin-top: 15px;
+  padding: 15px;
+  height: 220px;
+  background: #ebecf0;
+  border: 1px solid #dadde6;
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 92px;
+}
+
+.final-box {
+  width: 42%;
+  height: 183px;
+  padding: 20px 30px 0 25px;
+}
+
+.final .text {
+  margin-top: 45px;
+  width: 54%;
+}
+
+.final .text h2 {
+  font-family: "MuseoSansBold";
+  line-height: normal;
+  font-size: 18px;
+  color: #4f5266;
+  font-weight: bold;
+}
+
+.final .text p {
+  margin-top: 10px;
+  font-family: "MuseoSansLight";
+  line-height: normal;
+  font-size: 14px;
+  color: #4f5266;
+}
